@@ -8,5 +8,5 @@ def draw_sqr (cX, cY, size, win):
 
 chwin = GraphWin("Checkers.py", 500, 500)
 
-
-draw_sqr (0,0,50,chwin)
+for i in range(8):
+    draw_sqr ((i*50), 0, 50,chwin)
